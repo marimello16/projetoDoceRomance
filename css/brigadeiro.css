@@ -1,0 +1,122 @@
+body{
+    background-color: white;
+    margin: 0%;
+}
+
+header{
+    background-color: rgb(245, 221, 190);
+}
+
+.logo1{ 
+    width: 10%;
+    padding-left: 0.1%;
+    margin-bottom: 0.5%;
+}
+
+nav{
+    color: #6e2b09;
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding-top: 2%;
+}
+
+nav li{
+    display: inline;
+    margin-right: 40px;
+}
+
+.divHeader{
+    position: relative;
+    height: 185px;
+}
+.banner1{
+    width: 90%;        
+    display: block;
+    margin: 0.5% auto;   
+    border-radius: 30px;
+}
+
+.bannerbriga{
+    padding-top: 2%;
+}
+
+.sobre_nos{
+    width: 60%;
+    margin-left: 20%;
+}
+
+
+.briga2{
+    width: 45%;
+    float: left;
+}
+
+.titulos{
+    text-align: center;
+    color: #6e2b09;
+    font-size: 50px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+p{
+    font-size: 18.5px ;
+}
+
+.mapa{
+    text-align: center;
+    background: linear-gradient(#FFFFFF, #d89e82);
+}
+
+.produtos{
+   display: flex;            /* coloca imagem e texto lado a lado */
+    align-items: center;      /* alinha verticalmente */
+    justify-content: center;  /* centraliza o bloco */
+    gap: 40px;                /* espaço entre imagem e texto */
+    font-size: 30px;
+}
+
+.lista li{
+    display: block;
+     
+}
+
+.doceGourmet{
+    border-radius: 15px;
+}
+
+.linha-separadora {
+  border: none;
+  height: 1px;
+  background-color: #6e2b09;
+  margin: 0; /* remove o espaço branco */
+}
+
+
+
+.rodape {
+    background-color: #d89e82;
+    display: flex;
+    align-items: center;
+    padding: 10px 30px;
+    position: relative; 
+    margin-top: 0;
+}
+
+.img_rodape {
+    width: 90px;
+}
+
+.texto_rodape {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%); 
+    text-align: center;
+    color: #8B5E3C;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
