@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/brigadeiro.css">
+    <title>Contato</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="divHeader">
+            <img src="./img/logoo2.png" class="logo1">
+            <nav>
+                <ul>
+                    <li><a href="projeto.html">Home</a></li>
+                    <li><a href="./produtos.html">Produtos</a></li>
+                    <li><a href="./contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="contato_pag">
+        <ul class="contatos-titulo">
+            <li class="contatos-item">Será uma alegria te atender !</li>
+        </ul>
+
+        <div id="formRetorno" class="divRetorno" style="display: none;">
+            <p id="textoRetorno" class="texto-contatos"></p>
+        </div>
+
+        <div id="formulario">
+
+            <form id="frmContato">
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+
+                    <label>Nome e sobrenome</label>
+                    <input type="text" id="nomesobrenome" name="" class="input-padrao" required>
+
+                    <label>E-mail</label>
+                    <input type="email" id="email" name="" class="input-padrao" >
+
+                    <label>Telefone</label>
+                    <input type="tel" id="telefone" name="" class="input-padrao" >
+
+                    <label>Mensagem</label>
+                    <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
+
+                    <label>Como prefere o nosso contato?
+                        <input type="radio" value="radio-mail" name="Contato"> E-mail
+                        <input type="radio" value="radio-telefone" name="Contato"> Telefone
+                        <input type="radio" value="radio-whatsapp" name="Contato"> Whatsapp
+                    </label>
+
+                    <br>
+                    <label>Qual o motivo do seu contato?
+                        <select>
+                            <option>Selecione</option>
+                            <option>Encomenda</option>
+                            <option>Dúvida</option>
+                            <option>Sugestão</option>
+                            <option>feedbacks</option>
+                        </select>
+                    </label>
+
+                    <br>
+                    <label>
+                        <input type="checkbox" class="chk"> Gostaria de receber nossas novidades por e-mail?
+                    </label>
+
+                    <input type="submit" id="enviar" value="Enviar formulário" class="enviar">
+                </fieldset>
+            </form>
+        </div>
+    </main>
+
+    <footer class="rodape">
+        <img src="./img/logoo2.png" class="img_rodape">
+        <div class="texto_rodape">
+            <p>© 2026 Doce Romance</p>
+        </div>
+    </footer>
+
+    <script src="js/form.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="css/brigadeiro.css">
+
+    <title>Produtos</title>
+</head>
+
+<body>
+
+    <header>
+
+        <div class="divHeader">
+
+            <img src="./img/logoo2.png" class="logo1">
+
+            <nav>
+                <ul>
+                    <li><a href="projeto.html">Home</a></li>
+                    <li><a href="./produtos.html">Produtos</a></li>
+                    <li><a href="./contato.html">Contato</a></li>
+                </ul>
+            </nav>
+
+        </div>
+
+    </header>
+
+    <h1 class="tituloProduto">Brigadeiros Doce Romance</h1>
+
+    <main>
+
+        <section class="produtos">
+
+            <div class="grid-produtos">
+
+                <div class="card"
+                    onclick="abrirPopup(
+                    './img/brigadeiro1.jpg',
+                    'Uva com Brigadeiro Branco (com cacho)',
+                    'Uva verde, brigadeiro branco e granulado crocante.',
+                    'R$ 9,00'
+                )">
+
+                    <img src="./img/brigadeiro1.jpg">
+
+                    <h3>Uva com Brigadeiro Branco (com cacho)</h3>
+
+                    <p>R$ 9,00</p>
+
+                </div>
+
+                <div class="card"
+                    onclick="abrirPopup(
+                    './img/brigadeiro2.jpg',
+                    'Ao leite com Miçanga',
+                    'Chocolate ao leite, leite condensado e miçanga crocante.',
+                    'R$ 8,00'
+                )">
+
+                    <img src="./img/brigadeiro2.jpg">
+
+                    <h3>Ao leite com Miçanga</h3>
+
+                    <p>R$ 8,00</p>
+
+                </div>
+
+                <div class="card"
+                    onclick="abrirPopup(
+                    './img/brigadeiro3.jpg',
+                    'Casadinho',
+                    'Brigadeiro branco e ao leite combinados.',
+                    'R$ 7,50'
+                )">
+
+                    <img src="./img/brigadeiro3.jpg">
+
+                    <h3>Casadinho</h3>
+
+                    <p>R$ 7,50</p>
+
+                </div>
+
+                <div class="card"
+                    onclick="abrirPopup(
+                    './img/brigadeiro4.jpg',
+                    'Branco com Miçanga Perolada',
+                    'Chocolate branco, leite condensado e miçanga perolada.',
+                    'R$ 7,00'
+                )">
+
+                    <img src="./img/brigadeiro4.jpg">
+
+                    <h3>Branco com Miçanga Perolada</h3>
+
+                    <p>R$ 7,00</p>
+
+                </div>
+
+                <div class="card"
+                    onclick="abrirPopup(
+                    './img/brigadeiro5.jpg',
+                    'Churros',
+                    'Doce de leite, canela e cobertura crocante.',
+                    'R$ 8,00'
+                )">
+
+                    <img src="./img/brigadeiro5.jpg">
+
+                    <h3>Churros</h3>
+
+                    <p>R$ 8,00</p>
+
+                </div>
+
+                <div class="card"
+                    onclick="abrirPopup(
+                    './img/brigadeiro6.jpg',
+                    'Flor (casadinho)',
+                    'Brigadeiro branco e ao leite modelados em flor.',
+                    'R$ 6,50'
+                )">
+
+                    <img src="./img/brigadeiro6.jpg">
+
+                    <h3>Flor (casadinho)</h3>
+
+                    <p>R$ 6,50</p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <div class="popup" id="popup">
+
+        <div class="popup-content">
+
+            <span class="fechar" id="fecharPopup">&times;</span>
+
+            <img id="popupImg" src="" alt="Produto">
+
+            <h2 id="popupTitulo"></h2>
+
+            <p id="popupIngredientes"></p>
+
+            <h3 id="popupPreco"></h3>
+
+        </div>
+
+    </div>
+
+    <footer class="rodape">
+
+        <img src="./img/logoo2.png" class="img_rodape">
+
+        <div class="texto_rodape">
+            <p>© 2026 Doce Romance</p>
+        </div>
+
+    </footer>
+
+    <script src="./js/popup.js"></script>
+
+</body>
+
+</html>
